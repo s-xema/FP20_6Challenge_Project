@@ -19,6 +19,6 @@ Average delivery time experienced an increase of 135%  from January to February.
 
 Despite this, the amount of total revenue grew each month in the period.
 
-![page1](RESTAURANT FOOD DELIVERY ANALYSIS1.JPG)
+![page1](page1.jpg)
 
-![page2](RESTAURANT FOOD DELIVERY ANALYSIS2.JPG)
+![page2](page2.jpg)
