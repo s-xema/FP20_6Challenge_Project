@@ -1,7 +1,7 @@
 # FP20 6th Analytic Challenge
-## Restaurant Food Delivery Analysis
+Restaurant Food Delivery Analysis
 
-## [The complete interactive report can be found here](https://app.powerbi.com/view?r=eyJrIjoiOTRkZTJjMDYtY2JiNC00MDUyLWJkYjQtYzA4YWY3M2FjMjU5IiwidCI6Ijk5YTVhNjM1LTY1OGEtNGFhMS04MGIxLTdiM2IwNzcxZTkxYiIsImMiOjl9)
+### [The complete interactive report can be found here](https://app.powerbi.com/view?r=eyJrIjoiOTRkZTJjMDYtY2JiNC00MDUyLWJkYjQtYzA4YWY3M2FjMjU5IiwidCI6Ijk5YTVhNjM1LTY1OGEtNGFhMS04MGIxLTdiM2IwNzcxZTkxYiIsImMiOjl9)
 
 The dataset that has been provided contains delivery orders from January 1st to April 31st 2020 from three areas located in San Francisco Bay: Hayward, Fremont and Union City.
 The total order amount were 72.314 from 408 different restaurants delivered by 432 different drivers to 6262 different customers.
