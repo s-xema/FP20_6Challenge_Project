@@ -1,24 +1,71 @@
-# FP20 6th Analytic Challenge
-Restaurant Food Delivery Analysis
+# 🍕 Restaurant Food Delivery Analysis
 
-### [The complete interactive report can be found here](https://app.powerbi.com/view?r=eyJrIjoiOTRkZTJjMDYtY2JiNC00MDUyLWJkYjQtYzA4YWY3M2FjMjU5IiwidCI6Ijk5YTVhNjM1LTY1OGEtNGFhMS04MGIxLTdiM2IwNzcxZTkxYiIsImMiOjl9)
+> Competitive entry for the **FP20 Analytics 6th Challenge** — operational analysis
+> of 72,000+ food delivery orders across the San Francisco Bay Area.
 
-The dataset that has been provided contains delivery orders from January 1st to April 31st 2020 from three areas located in San Francisco Bay: Hayward, Fremont and Union City.
-The total order amount were 72.314 from 408 different restaurants delivered by 432 different drivers to 6262 different customers.
+[![Live Report](https://img.shields.io/badge/▶_View_Live_Report-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiOTRkZTJjMDYtY2JiNC00MDUyLWJkYjQtYzA4YWY3M2FjMjU5IiwidCI6Ijk5YTVhNjM1LTY1OGEtNGFhMS04MGIxLTdiM2IwNzcxZTkxYiIsImMiOjl9)
+[![FP20 Challenge](https://img.shields.io/badge/FP20_Analytics-6th_Challenge-8A2BE2?style=for-the-badge)](https://fp20analytics.com/)
 
-With that starting point, here are my main conclusions:
+![Dashboard Page 1](page1.jpg)
+![Dashboard Page 2](page2.jpg)
 
-The daily number of orders was constant throughout the period with about 600 orders per day with some exceptions: 
-- On certain separated days the volume of orders doubled the regular amount (10 days). One possible reason is the participation of Golden State Warriors in NBA games those days  (since delivery areas are located in San Francisco Bay Area).
-- On January 31st and March 31st there was only one order each day.
-- There were no orders on the 4th, 14th and 24th of January, February and March. One possible reason is a failure in the data system.
+---
 
-From 0am to 5am was the period of the day with highest order quantities and from 11am to 3pm the one with lowest order quantities.
+## 📦 Dataset
 
-Average delivery time experienced an increase of 135%  from January to February. That level of Avg. delivery time was maintained in March. And in April there was a decrease of 13%.
+| Metric | Value |
+|--------|-------|
+| Period | Jan – Apr 2020 |
+| Areas | Hayward · Fremont · Union City (SF Bay Area) |
+| Total Orders | 72,314 |
+| Restaurants | 408 |
+| Drivers | 432 |
+| Customers | 6,262 |
 
-Despite this, the amount of total revenue grew each month in the period.
+**Source:** Call center restaurant orders CSV provided by FP20 Analytics Challenge.
 
-![page1](page1.jpg)
+---
 
-![page2](page2.jpg)
+## 🔍 Key Findings
+
+**Order Volume**
+- ~600 orders/day consistently throughout the period
+- On 10 specific days, order volume **doubled** — likely correlated with Golden State Warriors NBA games in the Bay Area
+- No orders recorded on the 4th, 14th and 24th of each month — probable data system failure
+- January 31st and March 31st registered only 1 order each
+
+**Time Patterns**
+- Peak ordering window: **midnight – 5am**
+- Slowest period: **11am – 3pm**
+
+**Delivery Performance**
+- Average delivery time spiked **+135%** from January to February
+- That elevated level held through March, then dropped **-13%** in April
+- Despite longer delivery times, **total revenue grew every month**
+
+---
+
+## 🛠️ Tech Stack
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV-Data_Source-green?style=for-the-badge)
+
+---
+
+## 📁 Repository Files
+
+| File | Description |
+|------|-------------|
+| `Call Center_Restaurant Orders.csv` | Raw dataset |
+| `Intro & Brief_...Challenge 6.pdf` | Official challenge brief |
+| `page1.jpg` / `page2.jpg` | Dashboard screenshots |
+
+---
+
+## 📫 Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-maria-sancho-navarro/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/xemasancho)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xemasancho@gmail.com)
